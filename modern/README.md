@@ -15,3 +15,6 @@ Bold, modern pages.
 
 ### [1000 Network Error](https://github.com/BeeHiveCyberSecurity/CloudflareVanityPages/blob/main/modern/1000errors.html)
 ![IMG](https://i.imgur.com/mJvqc0O.png) ![IMG](https://i.imgur.com/qrYTAQJ.png)
+
+### [Interactive Challenge]()
+![IMG](https://i.imgur.com/7vnueC1.png)
