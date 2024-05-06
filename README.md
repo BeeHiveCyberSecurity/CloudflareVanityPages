@@ -11,3 +11,6 @@ But with these customized block and error page templates (and a Pro+ subscriptio
 Like our WAF-IPDB tool for Cloudflare - this is a template repo. 
 
 **First**. [clone this repository by clicking here while signed into a GitHub account](https://github.com/new?template_name=CloudflareVanityPages&template_owner=BeeHiveCyberSecurity).
+Then, pull down and begin customizing your pages in any proper development software. Notepad++ works, Cursor works, Visual Studio Code works...whatever works. 
+
+Each template has different aspects that are customizable according to your branding. 
