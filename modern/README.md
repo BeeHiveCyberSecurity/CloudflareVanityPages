@@ -8,4 +8,4 @@ Bold, modern pages.
 ![IP/Country Blockpage Screenshot](https://i.imgur.com/RM1jGh7.png)
 
 ### [429 Rate Limited](https://github.com/BeeHiveCyberSecurity/CloudflareVanityPages/blob/main/modern/429errors.html)
-![IMG](https://i.imgur.com/fAiv5wb.png)
+![IMG](https://i.imgur.com/uU77AfS.png)
