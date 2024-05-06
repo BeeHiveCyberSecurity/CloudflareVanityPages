@@ -36,4 +36,10 @@ To set a page, go to the page in your GitHub repository that you'd like to set, 
 
 ![GIF](https://i.imgur.com/S18eybv.gif)
 
-Now, copy the URL shown at the top of your screen. For this example, ours is ```https://raw.githubusercontent.com/BeeHiveCyberSecurity/CloudflareVanityPages/main/modern/ipcountryblock.html```
+Now, copy the URL shown at the top of your screen. For this example, ours is 
+
+```https://raw.githubusercontent.com/BeeHiveCyberSecurity/CloudflareVanityPages/main/modern/ipcountryblock.html```
+
+Now, go to "Custom Pages" under any website in your Cloudflare repertoire that is on a Pro+ plan.
+
+![IMG](https://i.imgur.com/N1SVxle.png)
