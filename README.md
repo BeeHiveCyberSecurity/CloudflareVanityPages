@@ -48,4 +48,6 @@ In this example, we're intending to set the appropriately named "IP/Country Bloc
 
 ![IMG](https://i.imgur.com/NI3bJY3.png)
 
-Click save, and you're done!
+Click publish, and you're done! If you'd like, you can even click "Preview" to test that your page is showing correctly. 
+
+**It's important to remember that Cloudflare will not actively update your page when you make changes to it! You will need to go in and remove and re-set your page for new changes to be pulled down by Cloudflare and shown to visitors.**
