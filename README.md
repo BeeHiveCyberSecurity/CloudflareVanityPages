@@ -1,4 +1,5 @@
-# ![Cloudflare](https://asset.brandfetch.io/idJ3Cg8ymG/idN3oIY8Ao.svg) Customizable Vanity Pages
+![Cloudflare](https://asset.brandfetch.io/idJ3Cg8ymG/idN3oIY8Ao.svg)
+# Custom Vanity Pages
 Customized variants of block and security check pages for users of Cloudflare's WAF.
 
 ## Overview
