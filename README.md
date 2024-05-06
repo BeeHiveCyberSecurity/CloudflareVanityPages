@@ -28,6 +28,8 @@ Each template has different aspects that are customizable according to your bran
 - Font selection
 - Page background coloring
 
+These pages come designed by us, for us, so seek out our pieces of color, URL's, and verbage to know what you need to change. For example, "Back to BeeHive" should be "Back to yourbusinessname", with the URL being yourbusinesswebsite.com
+
 Once you have customized a template page within your own repo to your organization's brand needs, you'll set it on Cloudflare's end. 
 
 When you set a "Custom Page" on Cloudflare, Cloudflare pulls inline the HTML, CSS, and JS of the page you provide - as long as all required items return `200 **OK**` on page-set.
