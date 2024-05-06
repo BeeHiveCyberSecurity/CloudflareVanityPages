@@ -34,7 +34,7 @@ Once you have customized a template page within your own repo to your organizati
 
 When you set a "Custom Page" on Cloudflare, Cloudflare pulls inline the HTML, CSS, and JS of the page you provide - as long as all required items return `200 **OK**` on page-set.
 
-To set a page, go to the page in your GitHub repository that you'd like to set, for example in our case, [ipcountryblock.html](https://github.com/BeeHiveCyberSecurity/CloudflareVanityPages/blob/main/modern/ipcountryblock.html). Then, click "Raw" located on the top right of your file's border/button/area/thing.
+To set a page, go to the page in your GitHub repository that you'd like to set, for example in our case, [ipcountryblock.html](https://github.com/BeeHiveCyberSecurity/CloudflareVanityPages/blob/main/modern/ipcountryblock.html). Then, click "Raw" located on the top right of your file viewer's border.
 
 ![GIF](https://i.imgur.com/S18eybv.gif)
 
