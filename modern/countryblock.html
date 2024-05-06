@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter Tight', sans-serif;
+            background-color: #fafafa;
+            margin: 100px;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            height: auto;
+            text-align: left;
+        }
+        .logo-container {
+            align-self: auto;
+            margin: 0px;
+        }
+        .logo-container img {
+            width: 250px; /* Adjust as needed */
+            height: auto;
+        }
+        .error-container {
+            max-width: 600px;
+        }
+        .error-code {
+            font-size: 7.5em;
+            margin-top: 60px;
+            font-weight: 900;
+            color: #000;
+        }
+        .error-message {
+            font-size: 3em;
+            font-weight: 700;
+            color: #000;
+        }
+        .error-details {
+            margin-top: 60px;
+            font-size: 1.75em;
+            font-weight: 100;
+            color: #000;
+        }
+        a {
+            color: #1a1a1a;
+            margin-top: 40px;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer-details {
+            margin-bottom: 150px;
+        }
+        .company-name {
+            font-size: 2.0em;
+            margin-bottom: 50px;
+            margin-right: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-container">
+    <div class="error-container">
+        
+        <div class="error-code" style="color: #ffd966;">WAF</div>
+        <div class="error-message">Access denied</div>
+        <div class="error-details">
+            Your IP address or geolocation is banned from accessing this website.
+        </div>
+        <div style="margin-top: 60px;">
+            <a href="https://www.beehive.systems" style="padding: 20px 0;">Back to BeeHive</a>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-details">
+            <p><b>User IP</b> <code>::CLIENT_IP::</code> <span class="info-tooltip" data-tooltip="The IP address from which the request was made." style="display: inline-block; width: 20px; height: 20px; border-radius: 50%; text-align: center; line-height: 20px; background-color: #e8e8e8;">?</span></p>
+            <style>
+                .info-tooltip {
+                    position: relative;
+                    display: inline-block;
+                }
+
+                .info-tooltip:hover::after {
+                    content: attr(data-tooltip);
+                    position: absolute;
+                    background-color: #555;
+                    color: #fff;
+                    text-align: center;
+                    border-radius: 6px;
+                    padding: 5px; /* Reduced padding to make text nearly fill the tooltip */
+                    white-space: nowrap; /* Ensure the tooltip text does not wrap */
+                    z-index: 1;
+                    bottom: 125%;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    opacity: 0;
+                    transition: opacity 0.3s;
+                }
+
+                .info-tooltip:hover::after {
+                    opacity: 1;
+                }
+            </style>
+            <p><b>Ray ID</b> <code>::RAY_ID::</code> <span class="info-tooltip" data-tooltip="The Ray ID associated with this request." style="display: inline-block; width: 20px; height: 20px; border-radius: 50%; text-align: center; line-height: 20px; background-color: #e8e8e8;">?</span></p>
+            <p><b>Location</b> <code>::GEO::</code> <span class="info-tooltip" data-tooltip="The location your IP reflects you from." style="display: inline-block; width: 20px; height: 20px; border-radius: 50%; text-align: center; line-height: 20px; background-color: #e8e8e8;">?</span></p>
+
+            <a href="https://www.beehive.systems/support" style="padding: 0px 0;">Was this a mistake? <b>Let us know</b></a>
+        </div>
+    </footer>
