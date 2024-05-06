@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Error 500 - Internal Server Error</title>
+    <title>Error 1000 - Network Error</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
@@ -49,6 +49,7 @@
             color: #1a1a1a;
             margin-top: 40px;
             text-decoration: none;
+            padding: 20px 0; /* Increased padding for the "Go back" button */
         }
         a:hover {
             text-decoration: underline;
@@ -140,19 +141,19 @@
     <div class="logo-container">
     <div class="error-container">
         
-        <div class="error-code" style="color: #ffd966;">500</div>
-        <div class="error-message">Internal Server Error</div>
+        <div class="error-code" style="color: #ffd966;">1000</div>
+        <div class="error-message">Network Error</div>
         <div class="error-details">
-            There was an unexpected issue on the server preventing it from fulfilling your request. Please try again later or contact the website owner if the problem persists.
+            There was an unexpected issue with the network preventing your request from being processed.
         </div>
         <div class="dropdown">
             <button class="dropbtn">Error Details</button>
             <div class="dropdown-content">
-                <code>::CLOUDFLARE_ERROR_500S_BOX::</code>
+                <code>::CLOUDFLARE_ERROR_1000S_BOX::</code>
             </div>
         </div>
         <div style="margin-top: 60px;">
-            <a href="javascript:history.back()" style="padding: 20px 0;">Go back</a>
+            <a href="javascript:history.back()">Go back</a>
         </div>
     </div>
     <footer>
