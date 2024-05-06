@@ -16,25 +16,23 @@ Alternatively, Enterprise customers can customize `5XX` error pages at their ori
 # How to use these
 Like our WAF-IPDB tool for Cloudflare - this is a template repo. 
 
-**First**. [clone this repository by clicking here while signed into a GitHub account](https://github.com/new?template_name=CloudflareVanityPages&template_owner=BeeHiveCyberSecurity).
+To initiate the customization process, [clone the repository by clicking on this link while logged into your GitHub account](https://github.com/new?template_name=CloudflareVanityPages&template_owner=BeeHiveCyberSecurity).
 
-Then, pull down and begin customizing your pages in any proper development software. 
+After cloning, proceed to download the repository and commence the customization of your pages using an appropriate development environment. Suitable software includes Notepad++, Cursor, and Visual Studio Code.
 
-Notepad++ works, Cursor works, Visual Studio Code works.
-
-Each template has different aspects that are customizable according to your branding. The primary items you'll want to focus on when customizing each individual page template, is
+Each template offers various customizable elements to align with your brand identity. Focus on the following key aspects when personalizing each page template:
 - Brand colors
-- Brand logo (if selected)
-- Font selection
-- Page background coloring
+- Brand logo (if applicable)
+- Typography choices
+- Background color of the page
 
-These pages come designed by us, for us, so seek out our pieces of color, URL's, and verbage to know what you need to change. For example, "Back to BeeHive" should be "Back to yourbusinessname", with the URL being yourbusinesswebsite.com
+The templates are initially configured with our branding. You will need to locate and modify our branding elements, such as colors, URLs, and language, to reflect your brand. For example, change "Back to BeeHive" to "Back to [Your Business Name]" and update the URL to your business's website.
 
-Once you have customized a template page within your own repo to your organization's brand needs, you'll set it on Cloudflare's end. 
+Once you have tailored a template to your organization's branding within your repository, the subsequent step is to implement it on Cloudflare.
 
-When you set a "Custom Page" on Cloudflare, Cloudflare pulls inline the HTML, CSS, and JS of the page you provide - as long as all required items return `200 **OK**` on page-set.
+Cloudflare will integrate the HTML, CSS, and JavaScript from your custom page, assuming all components are accessible and return a `200 OK` status upon setup.
 
-To set a page, go to the page in your GitHub repository that you'd like to set, for example in our case, [ipcountryblock.html](https://github.com/BeeHiveCyberSecurity/CloudflareVanityPages/blob/main/modern/ipcountryblock.html). Then, click "Raw" located on the top right of your file viewer's border.
+To set up a custom page, navigate to the desired page within your GitHub repository. For instance, consider the [ipcountryblock.html](https://github.com/BeeHiveCyberSecurity/CloudflareVanityPages/blob/main/modern/ipcountryblock.html) page. Click on the "Raw" button, located at the top right corner of the file viewer.
 
 ![GIF](https://i.imgur.com/S18eybv.gif)
 
