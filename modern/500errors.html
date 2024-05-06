@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 500 - Internal Server Error</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter Tight', sans-serif;
+            background-color: #fafafa;
+            margin: 100px;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+            height: auto;
+            text-align: left;
+        }
+        .logo-container {
+            align-self: auto;
+            margin: 0px;
+        }
+        .logo-container img {
+            width: 250px; /* Adjust as needed */
+            height: auto;
+        }
+        .error-container {
+            max-width: 600px;
+        }
+        .error-code {
+            font-size: 7.5em;
+            margin-top: 60px;
+            font-weight: 900;
+            color: #000;
+        }
+        .error-message {
+            font-size: 3em;
+            font-weight: 700;
+            color: #000;
+        }
+        .error-details {
+            margin-top: 60px;
+            font-size: 1.75em;
+            font-weight: 100;
+            color: #000;
+        }
+        a {
+            color: #1a1a1a;
+            margin-top: 40px;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 0 0px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer-details {
+            margin-bottom: 150px;
+        }
+        .company-name {
+            font-size: 2.0em;
+            margin-bottom: 50px;
+            margin-right: 0px;
+        }
+        .dropdown {
+            margin-top: 20px;
+            position: relative;
+        }
+        .dropbtn {
+            background-color: #e8e8e8;
+            color: black;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content code {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown.open .dropdown-content {
+            display: block;
+        }
+        .info-tooltip {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 20px;
+            background-color: #e8e8e8;
+            cursor: help;
+            position: relative;
+        }
+        .info-tooltip::after {
+            content: attr(data-tooltip);
+            display: none;
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            white-space: nowrap;
+            background-color: #000;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            line-height: 1.4;
+            z-index: 2;
+        }
+        .info-tooltip:hover::after {
+            display: block;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var dropdown = document.querySelector('.dropdown');
+            var dropbtn = document.querySelector('.dropbtn');
+            dropbtn.onclick = function() {
+                dropdown.classList.toggle('open');
+            };
+        });
+    </script>
+</head>
+<body>
+    <div class="logo-container">
+    <div class="error-container">
+        
+        <div class="error-code" style="color: #ffd966;">500</div>
+        <div class="error-message">Internal Server Error</div>
+        <div class="error-details">
+            There was an unexpected issue on the server preventing it from fulfilling your request. Please try again later or contact the website owner if the problem persists.
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Error Details</button>
+            <div class="dropdown-content">
+                <code>::CLOUDFLARE_ERROR_500S_BOX::</code>
+            </div>
+        </div>
+        <div style="margin-top: 60px;">
+            <a href="javascript:history.back()" style="padding: 20px 0;">Go back</a>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-details">
+            <p><b>Ray ID</b> <code>::RAY_ID::</code> <span class="info-tooltip" data-tooltip="The unique identifier for this error.">?</span></p>
+            <p><b>Your IP</b> <code>::CLIENT_IP::</code> <span class="info-tooltip" data-tooltip="Your IP address.">?</span></p>
+        </div>
+    </footer>
+</body>
+</html>
