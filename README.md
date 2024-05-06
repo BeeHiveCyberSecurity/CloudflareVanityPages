@@ -10,5 +10,6 @@ But with these customized block and error page templates (and a Pro+ subscriptio
 # How to use these
 Like our WAF-IPDB tool for Cloudflare - this is a template repo. 
 
-First, clone our repo using the green button
+First, clone our repo using the green button located at the top of this repository. It looks like the image below.
+
 ![Template button](https://i.imgur.com/or3azr2.png)
