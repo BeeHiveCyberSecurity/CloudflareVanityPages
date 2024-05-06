@@ -18,3 +18,6 @@ Bold, modern pages.
 
 ### [Interactive Challenge]()
 ![IMG](https://i.imgur.com/7vnueC1.png)
+
+### [JavaScript Challenge]()
+![IMG](https://i.imgur.com/8iCbWps.png)
