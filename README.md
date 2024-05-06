@@ -1,11 +1,16 @@
 # ![Cloudflare](https://asset.brandfetch.io/idJ3Cg8ymG/idN3oIY8Ao.svg) Customizable Vanity Pages
 Customized variants of block and security check pages for users of Cloudflare's WAF.
 
-# About
-Cloudflare's block and error pages typically look like this:
-![Cloudflare Vanity Pages Image](https://i.imgur.com/4VdE7d5.png)
+## Overview
+Cloudflare uses a wide range of error codes to identify issues in handling request traffic. By default, these error pages mention Cloudflare; however, custom error pages help you provide a consistent brand experience for your users. 
 
-But with these customized block and error page templates (and a Pro+ subscription), you too can customize yours from these easy-to-use templates.
+If you are on the Pro, Business, or Enterprise plan you can customize and brand these pages for your whole account or for specific domains. You can design custom error pages to appear during a security challenge or when an error occurs.
+
+`500`, `501`, `503`, and `505` responses do **not** trigger custom error pages to avoid breaking specific API endpoints and other web applications.
+
+Alternatively, Enterprise customers can customize `5XX` error pages at their origin via "Enable Origin Error Pages" in the "Custom Pages" app in the dashboard.
+
+> Enable Origin Error Pages excludes errors 520 to 527.
 
 # How to use these
 Like our WAF-IPDB tool for Cloudflare - this is a template repo. 
