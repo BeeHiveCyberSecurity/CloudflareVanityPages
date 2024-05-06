@@ -12,3 +12,6 @@ Bold, modern pages.
 
 ### [500 Internal Server Error](https://github.com/BeeHiveCyberSecurity/CloudflareVanityPages/blob/main/modern/500errors.html)
 ![IMG](https://i.imgur.com/FbDLWhs.png) ![IMG](https://i.imgur.com/HiEI9fY.png)
+
+### [1000 Network Error](https://github.com/BeeHiveCyberSecurity/CloudflareVanityPages/blob/main/modern/1000errors.html)
+![IMG](https://i.imgur.com/mJvqc0O.png) ![IMG](https://i.imgur.com/qrYTAQJ.png)
