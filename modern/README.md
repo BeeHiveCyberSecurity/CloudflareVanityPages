@@ -9,3 +9,6 @@ Bold, modern pages.
 
 ### [429 Rate Limited](https://github.com/BeeHiveCyberSecurity/CloudflareVanityPages/blob/main/modern/429errors.html)
 ![IMG](https://i.imgur.com/uU77AfS.png)
+
+### [500 Internal Server Error](https://github.com/BeeHiveCyberSecurity/CloudflareVanityPages/blob/main/modern/500errors.html)
+![IMG](https://i.imgur.com/FbDLWhs.png) ![IMG](https://i.imgur.com/HiEI9fY.png)
