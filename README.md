@@ -6,3 +6,9 @@ Cloudflare's block and error pages typically look like this:
 ![Cloudflare Vanity Pages Image](https://i.imgur.com/4VdE7d5.png)
 
 But with these customized block and error page templates (and a Pro+ subscription), you too can customize yours from these easy-to-use templates.
+
+# How to use these
+Like our WAF-IPDB tool for Cloudflare - this is a template repo. 
+
+First, clone our repo using the green button
+![Template button](https://i.imgur.com/or3azr2.png)
