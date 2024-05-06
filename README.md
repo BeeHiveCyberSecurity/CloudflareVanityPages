@@ -43,3 +43,9 @@ Now, copy the URL shown at the top of your screen. For this example, ours is
 Now, go to "Custom Pages" under any website in your Cloudflare repertoire that is on a Pro+ plan.
 
 ![IMG](https://i.imgur.com/N1SVxle.png)
+
+In this example, we're intending to set the appropriately named "IP/Country Block" page. Using the link we just prior copied from GitHub, we'll set the page in Cloudflare Custom Pages.
+
+![IMG](https://i.imgur.com/NI3bJY3.png)
+
+Click save, and you're done!
