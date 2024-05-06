@@ -35,3 +35,5 @@ When you set a "Custom Page" on Cloudflare, Cloudflare pulls inline the HTML, CS
 To set a page, go to the page in your GitHub repository that you'd like to set, for example in our case, [ipcountryblock.html](https://github.com/BeeHiveCyberSecurity/CloudflareVanityPages/blob/main/modern/ipcountryblock.html). Then, click "Raw" located on the top right of your file's border/button/area/thing.
 
 ![GIF](https://i.imgur.com/S18eybv.gif)
+
+Now, copy the URL shown at the top of your screen. For this example, ours is ```https://raw.githubusercontent.com/BeeHiveCyberSecurity/CloudflareVanityPages/main/modern/ipcountryblock.html```
