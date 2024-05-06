@@ -16,6 +16,12 @@ Alternatively, Enterprise customers can customize `5XX` error pages at their ori
 Like our WAF-IPDB tool for Cloudflare - this is a template repo. 
 
 **First**. [clone this repository by clicking here while signed into a GitHub account](https://github.com/new?template_name=CloudflareVanityPages&template_owner=BeeHiveCyberSecurity).
-Then, pull down and begin customizing your pages in any proper development software. Notepad++ works, Cursor works, Visual Studio Code works...whatever works. 
 
-Each template has different aspects that are customizable according to your branding. 
+Then, pull down and begin customizing your pages in any proper development software. 
+Notepad++ works, Cursor works, Visual Studio Code works.
+
+Each template has different aspects that are customizable according to your branding. The primary items you'll want to focus on when customizing each individual page template, is
+- Brand colors
+- Brand logo (if selected)
+- Font selection
+- Page background coloring
